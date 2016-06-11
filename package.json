@@ -1,0 +1,33 @@
+{
+  "name": "ng-panel",
+  "version": "1.0.0",
+  "description": "ng-panel is an angular directive for compiling child templates",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify ./index.js > ./example/built.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hanford/ng-panel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanford/ng-panel.git"
+  },
+  "keywords": [
+    "angular img flip",
+    "panel",
+    "ngPanel",
+    "angular panel",
+    "panel"
+  ],
+  "author": "Jack Hanford <jackhanford@gmail.com> (http://jackhanford.com)",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "angular": ">=1.2 <2"
+  },
+  "devDependencies": {
+    "angular": "~1.5.5",
+    "angular-mocks": "~1.5.x"
+  }
+}
