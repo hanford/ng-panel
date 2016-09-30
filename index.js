@@ -1,3 +1,8 @@
+/**
+ * Originally created by Matias Niemelä, @matsko
+ * He later deleted the Github repo that had this in it, so I re-created it.
+ */
+
 module.exports = require('angular')
   .module('angular-panel', [])
   .directive('ngPanel', ['$animate', ngPanel])
